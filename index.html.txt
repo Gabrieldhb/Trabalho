@@ -1,0 +1,71 @@
+!DOCTYPE html
+html lang=pt-BR
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleMeu Sitetitle
+    link rel=stylesheet href=styles.css
+head
+body
+    !-- Navegação --
+    nav
+        ul
+            lia href=#inicioInícioali
+            lia href=#sobreSobre Mimali
+            lia href=#portfolioPortfólioali
+            lia href=#formacaoFormaçãoali
+            lia href=#contatoContatoali
+        ul
+    nav
+
+    !-- Seção Inicial --
+    section id=inicio class=content
+        div class=container
+            h1Bem-vindo ao Meu Site!h1
+            pSeja bem-vindo à minha página pessoal.p
+            pClique a href=#sobreaquia para saber mais.p
+        div
+    section
+
+    !-- Seção Sobre Mim --
+    section id=sobre class=content
+        div class=container
+            h1Sobre Mimh1
+            pMeu nome é Gabriel, tenho 23 anos e sou apaixonado por tecnologia. Desde um simples transistor a um complexo sistema microprocessado, não me canso de aprender cada vez mais sobre estes assuntos.p
+        div
+    section
+
+    !-- Seção Portfólio --
+    section id=portfolio class=content
+        div class=container
+            h1Meu Portfólioh1
+            pAnotador de tarefas a href=httpsgithub.comGabrieldhbTrabalho-blob5e0c893c95cabdd72c5002b4aeb309dab02cfce6Anotador%20de%20tarefas target=_blankAnotador de Tarefasap
+        div
+    section
+
+    !-- Seção Formação --
+    section id=formacao class=content
+        div class=container
+            h1Minha Formaçãoh1
+            p Possuo graduação em Automação Industrial e estou cursando Engenharia de Software.p
+        div
+    section
+
+    !-- Seção Contato --
+    section id=contato class=content
+        div class=container
+            h1Contatoh1
+            !-- Formulário de Contato --
+            form action=submit.php method=POST
+                label for=nomeNomelabel
+                input type=text id=nome name=nomebr
+                label for=emailE-maillabel
+                input type=email id=email name=emailbr
+                label for=mensagemDigite sua mensagemlabel
+                textarea id=mensagem name=mensagemtextareabr
+                input type=submit value=Enviar
+            form
+        div
+    section
+body
+html
